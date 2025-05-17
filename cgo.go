@@ -20,10 +20,10 @@ import "C"
 // contain V8 libraries and headers which otherwise would be ignored.
 // DO NOT REMOVE
 import (
-	_ "rogchap.com/v8go/deps/alpine_x86_64"
-	_ "rogchap.com/v8go/deps/darwin_arm64"
-	_ "rogchap.com/v8go/deps/darwin_x86_64"
-	_ "rogchap.com/v8go/deps/include"
-	_ "rogchap.com/v8go/deps/linux_arm64"
-	_ "rogchap.com/v8go/deps/linux_x86_64"
+	_ "github.com/millfun/v8go/deps/alpine_x86_64"
+	_ "github.com/millfun/v8go/deps/darwin_arm64"
+	_ "github.com/millfun/v8go/deps/darwin_x86_64"
+	_ "github.com/millfun/v8go/deps/include"
+	_ "github.com/millfun/v8go/deps/linux_arm64"
+	_ "github.com/millfun/v8go/deps/linux_x86_64"
 )
